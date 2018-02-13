@@ -1,0 +1,152 @@
+*{
+  box-sizing: border-box;
+}
+body {
+  margin-top:2%;
+  text-align:center;
+  color:#fff;
+  background-color:#122836;
+  overflow: hidden;
+}
+video { 
+  position:absolute;
+  z-index: 100;
+  /*visibility:hidden;*/
+}
+
+#start{
+  font-family: 'Sriracha', cursive;
+  position: absolute;
+  bottom:25px;
+  left:0;
+  background: rgba(0,0,0,0.5);
+  z-index: 2000;
+  height: 225px;
+  width: 100%;
+}
+
+#start h1{
+  margin:0;
+  line-height: 132px;
+  font-size: 100px;
+
+}
+
+#start small{
+  font-size: 50px;
+
+}
+
+
+#flash{
+  position: absolute;
+  background: #fff;
+  top:0;
+  left:0;
+  display:none;
+  z-index: 2000;
+  height: 100%;
+  width: 100%;
+}
+
+.preview{
+  position: absolute;
+  top:0;
+  left:0;
+  display:none;
+  z-index: 2000;
+  height: 100%;
+  width: 100%;
+}
+
+.preview input{
+   position: absolute;
+   bottom: 25px;
+   height: 100px;
+   right: 225px;
+   padding:15px;
+  font-size: 40px;
+}
+
+.preview #cancel{
+    width: 300px;
+    position: absolute;
+    bottom: 25px;
+    left: 25px;
+    height: 100px;
+    font-size: 40px;  
+}
+
+.preview #send{
+    width: 200px;
+    position: absolute;
+    bottom: 25px;
+    right: 25px;
+    height: 100px;
+    font-size: 40px;
+}
+
+.preview img{
+  border:8px solid white;
+  height: 49.5%;
+  width: 49.5%;
+
+}
+
+.preview img.selected{
+  border:8px solid green;
+}
+
+#countdown{
+  font-family: 'Sriracha', cursive;
+  position: absolute;
+  top:50%;
+  left:50%;
+  margin-top:-250px;
+  margin-left:-50px;
+  font-size: 200px;
+  z-index: 1000;
+}
+#b{
+  height:100%;
+  width:100%;
+  position: absolute;
+  top:0;
+  left:0;
+  z-index: 5;
+}
+
+#m{
+  height:100%;
+  width:100%;
+  position: absolute;
+  top:0;
+  left:0; 
+  z-index: 1;
+}
+
+#c {
+  height:100%;
+  width:100%;
+  position: absolute;
+  top:0;
+  left:0;
+  z-index: 10;
+}
+
+button {
+  font-family: 'Sriracha', cursive;
+  border:none;
+  display:block;
+  cursor:pointer;
+  color:#fff;
+}
+
+
+#cancel{
+    background-color:#EF5350;
+}
+
+#send{
+    background-color:#66BB6A;
+  }
